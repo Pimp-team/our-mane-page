@@ -1,0 +1,60 @@
+.head {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.content_block {
+    margin-top: 110px;
+    width: calc(30% - 10px);
+    height: 500px;
+    box-shadow: 0px 10px 20px -10px;
+    p {
+        margin-top: 30px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 30px;
+        text-align: left;
+    }
+}
+
+.content_block_header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.one {
+    background: linear-gradient(145.6deg, #989FE1 8.68%, rgba(151, 161, 249, 0.708304) 31.99%, rgba(95, 159, 219, 0.486877) 55.53%, rgba(96, 255, 131, 0.364583) 99.98%, rgba(155, 34, 34, 0) 99.99%, rgba(68, 21, 21, 0.67) 100%);
+}
+
+.two {
+    background: linear-gradient(145.6deg, #FFFFFF 8.68%, rgba(242, 98, 98, 0.708304) 31.99%, rgba(223, 31, 31, 0.486877) 55.53%, rgba(155, 34, 34, 0) 99.99%, rgba(208, 112, 112, 0.213304) 100%, rgba(255, 209, 209, 0.364583) 100%);
+}
+.three {
+    background: linear-gradient(139.91deg, #ECD933 -1.88%, rgba(247, 249, 151, 0.708304) -1.88%, rgba(226, 236, 74, 0.579255) 47.78%, rgba(237, 241, 189, 0.486877) 95.09%, rgba(96, 255, 131, 0.364583) 99.98%, rgba(155, 34, 34, 0) 99.99%, rgba(68, 21, 21, 0.213304) 100%);
+}
+
+.content_block_wrapper {
+    display: flex;
+    justify-content: space-between;
+   
+    img {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    h3 {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        color: white;
+        text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+-webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+-moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    }
+}

@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    .content_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        align-self: center;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 90px;
+      }
+      ul {
+        align-items: center;
+        padding: 40px;
+        list-style-type: none;
+        display: flex;
+       li a {
+        color: white;
+        
+       }
+      
+        li:last-child {
+            border: 1px solid white;
+            padding: 10px 20px 10px 20px;
+        }
+
+        li:not(:last-child) {
+            margin-right: 20px;
+        }
+        .ukraine {
+            color: #ffe926;
+        }
+        a {
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+      }
+}
